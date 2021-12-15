@@ -36,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+ul {
+  width:40%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:0;
+}
+
+li{
+  list-style:none;
+}
+a{
+  text-decoration: none;
+  padding:5px;
+  background-color: black;
+  color:white;
+}
+
+button{
+  margin-top :25px;
+}
+
+.login{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginInputs {
+  width: 25%;
+  display:flex;
+  flex-direction: column;
+}
+
+.addFriend{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addFriendInputs {
+  width: 25%;
+  display:flex;
+  flex-direction: column;
+}
+
+.friendList{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.friendList ul{
+  display:flex;
+  flex-direction: column;
+}
+
+.friendList h2 {
+  font-size: 3rem;
+}
+
+.friendList li {
+  list-style: square;
+  font-size: 1.5rem;
+
+}
